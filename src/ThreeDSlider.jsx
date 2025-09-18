@@ -34,6 +34,7 @@ const StyledSwiper = styled(Swiper)`
   width: 80vw;
   max-width: 900px;
   height: 650px;
+  
   .swiper-pagination-bullets {
     bottom: 20px;
   }
