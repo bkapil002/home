@@ -55,7 +55,7 @@ const Home = () => {
                 href="https://community.samzara.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#2A2A72] cursor-pointer text-[14px] text-white px-5 py-2 rounded-md w-full sm:w-auto transition"
+                className="bg-[#2A2A72] flex justify-center items-center cursor-pointer text-[14px] text-white px-5 py-2 rounded-md w-full sm:w-auto transition"
               >
                 Join Online Meeting
               </a>
@@ -120,7 +120,7 @@ const Home = () => {
                 href="https://findrehabcentres.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#2A2A72] cursor-pointer text-[14px] text-white px-6 py-2 rounded-md w-full sm:w-auto transition"
+                className="bg-[#2A2A72] flex justify-center items-center  cursor-pointer text-[14px] text-white px-6 py-2 rounded-md w-full sm:w-auto transition"
               >
                 Get Started
               </a>
