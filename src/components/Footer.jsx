@@ -6,21 +6,22 @@ export default function Footer() {
       {/* Top Row */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between border-b border-[#e7e7e7] pb-4 gap-4">
         <div className="w-full md:w-auto">
-          <div className="flex  items-start sm:items-center sm:space-x-2 space-y-2 sm:space-y-0">
-            {/* Plus Circle Icon */}
-            <svg
-              className="w-6 h-6 text-[#222A3F]"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 8v8M8 12h8" />
-            </svg>
-            <span className="font-semibold text-base sm:text-lg text-[#222A3F]">
-              QUICK LINKS
-            </span>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center sm:space-x-2 space-y-2 sm:space-y-0">
+            <div className="flex items-center gap-1">
+              <svg
+                className="w-6 h-6 text-[#222A3F]"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 12h8" />
+              </svg>
+              <span className="font-semibold text-base sm:text-lg text-[#222A3F]">
+                QUICK LINKS
+              </span>
+            </div>
             <span className="text-[#626C8B] text-sm">
               Explore more categories
             </span>
@@ -61,12 +62,15 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row font-medium items-start sm:items-center gap-2 text-[#222A3F] text-sm sm:text-base">
-          <a href="tel:+917300677006" className="text-[#222A3F] hover:underline">
+          <a
+            href="tel:+917300677006"
+            className="text-[#222A3F] hover:underline"
+          >
             +91 73006 77006
           </a>
           <span className="hidden sm:inline">|</span>
           <a
-             href="mailto:info@findrehabcentres.com?subject=Inquiry&body=Hello%20there"
+            href="mailto:info@findrehabcentres.com?subject=Inquiry&body=Hello%20there"
             className="text-[#222A3F] underline"
           >
             info@findrehabcentres.com
@@ -228,7 +232,11 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-left md:text-right">
-            2024 ©<a href="#" className=" font-bold underline cursor-pointer">SamZara India Pvt Ltd.</a>  All rights reserved.
+            2024 ©
+            <a href="#" className=" font-bold underline cursor-pointer">
+              SamZara India Pvt Ltd.
+            </a>{" "}
+            All rights reserved.
           </div>
         </div>
       </div>
