@@ -6,7 +6,7 @@ export default function Footer() {
       {/* Top Row */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between border-b border-[#e7e7e7] pb-4 gap-4">
         <div className="w-full md:w-auto">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center sm:space-x-2 space-y-2 sm:space-y-0">
+          <div className="flex  items-start sm:items-center sm:space-x-2 space-y-2 sm:space-y-0">
             {/* Plus Circle Icon */}
             <svg
               className="w-6 h-6 text-[#222A3F]"
