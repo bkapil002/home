@@ -38,7 +38,7 @@ const Home = () => {
 
           {/* Right Side - Content */}
           <div className="flex-1 flex flex-col w-full">
-            <p className="text-gray-700 text-center md:text-right mb-6 text-sm sm:text-base">
+            <p className="text-gray-700 text-left md:text-right mb-6 text-sm sm:text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -85,7 +85,7 @@ const Home = () => {
 
           {/* Text block */}
           <div className="flex flex-col w-full order-2 md:order-1">
-            <p className="text-[#3C3C3C] mb-6 text-center md:text-left text-sm sm:text-base">
+            <p className="text-[#3C3C3C] mb-6  md:text-left text-sm sm:text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown
@@ -120,7 +120,7 @@ const Home = () => {
               ))}
             </div>
 
-            <p className="text-[#3C3C3C] mb-6 text-center md:text-left text-sm sm:text-base">
+            <p className="text-[#3C3C3C] mb-6  md:text-left text-sm sm:text-base">
               Printer took a galley of type and scrambled it to make a type
               specimen book. It has survived not only five centuries, but also
               the leap into electronic typesetting, remaining essentially
