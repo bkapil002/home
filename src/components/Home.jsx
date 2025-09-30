@@ -9,16 +9,18 @@ import video from "../Image/video.mp4";
 const Home = () => {
   return (
     <div>
-      <div className="w-full px-15 mt-3 overflow-hidden">
+      <div className="w-full mt-3 overflow-hidden px-4 sm:px-8 md:px-19 lg:px-16">
         <video
           src={video}
           autoPlay
           loop
           muted
-          className="w-full rounded-2xl h-auto"
+          className="w-full rounded-2xl h-100 md:h-130 lg:h-130 object-cover"
         />
       </div>
-      <div className="w-full py-4 sm:py-8 md:py-12 px-4 sm:px-8 md:px-14">
+
+      {/* De-Addiction Section */}
+      <div className="w-full py-8 md:py-12 px-4 sm:px-8 md:px-19 lg:px-16">
         {/* Heading */}
         <h1 className="text-2xl sm:text-4xl md:text-[50px] text-center md:text-right text-[#2A2A72] mb-6">
           De-Addiction Anonymous
@@ -64,14 +66,25 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full mt-6 sm:mt-10 md:mt-12 py-4 sm:py-8 md:py-12 px-4 sm:px-8 md:px-14 bg-white">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-6 md:gap-12">
-          {/* Left Side - Content */}
-          <div className="flex-1 w-full">
-            <h1 className="text-2xl sm:text-4xl md:text-[50px] text-center md:text-left text-[#2A2A72] mb-6">
-              Explore the Doctors
-            </h1>
+      <div className="w-full py-8 md:py-12 px-4 sm:px-8 md:px-19 lg:px-16">
+        {/* Heading */}
+        <h1 className="text-2xl sm:text-4xl md:text-[50px] text-center md:text-left text-[#2A2A72] mb-6">
+          De-Addiction Anonymous
+        </h1>
 
+        {/* Flex container for image + text */}
+        <div className="flex flex-col md:flex-row items-start gap-6">
+          {/* Image block */}
+          <div className="flex justify-center lg:ml-30 ml-0 md:ml-0 w-full order-1 md:order-2">
+            <img
+              src={doctor}
+              alt="doctor illustration"
+              className="max-w-full h-auto lg:h-[380px] rounded-md"
+            />
+          </div>
+
+          {/* Text block */}
+          <div className="flex flex-col w-full order-2 md:order-1">
             <p className="text-[#3C3C3C] mb-6 text-center md:text-left text-sm sm:text-base">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -115,28 +128,22 @@ const Home = () => {
               Letraset sheets Ipsum.
             </p>
 
+            {/* Button */}
             <div className="flex justify-center md:justify-start">
               <a
                 href="https://findrehabcentres.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#2A2A72] flex justify-center items-center  cursor-pointer text-[14px] text-white px-6 py-2 rounded-md w-full sm:w-auto transition"
+                className="bg-[#2A2A72] flex justify-center items-center cursor-pointer text-[14px] text-white px-6 py-2 rounded-md w-full sm:w-auto transition"
               >
                 Get Started
               </a>
             </div>
           </div>
-
-          {/* Right Side - Image */}
-          <div className="flex-1 flex justify-center w-full mt-6 md:mt-0">
-            <img
-              src={doctor}
-              alt="doctor illustration"
-              className="max-w-full h-auto rounded-md"
-            />
-          </div>
         </div>
       </div>
+
+      {/* Extra Components */}
       <ThreeDSlider />
       <TopRehabs />
       <JoinMember />

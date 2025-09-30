@@ -64,7 +64,7 @@ const Navebar = () => {
           >
             Member
           </a>
-          <div className="flex justify-center items-center gap-3 -mr-4 font-medium">
+          <div className="flex justify-center items-center gap-3 font-medium">
             <a
               href="https://community.samzara.in/register"
               target="_blank"

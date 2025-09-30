@@ -21,27 +21,27 @@ export default function TopRehabs() {
   );
 
   return (
-    <div className="bg-white flex flex-col items-center w-full px-2 sm:px-6 md:px-14 py-6 sm:py-10">
+    <div className="bg-white flex flex-col items-center mt-9 w-full px-4 sm:px-8 md:px-19 lg:px-16">
       {/* Header */}
       <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-center mb-6 md:mb-10 gap-6">
         <div className="w-full md:w-auto">
-          <h1 className="text-2xl sm:text-4xl md:text-[50px] text-left text-[#2A2A72] mb-1">
+          <h1 className="text-2xl text-center sm:text-4xl md:text-[50px] md:text-left text-[#2A2A72] mb-3">
             Top Rehabs near You
           </h1>
-          <p className="text-gray-600 mb-4 md:mb-8 text-sm sm:text-base">
+          <p className="text-gray-600 text-center mb-4 md:mb-8 text-sm sm:text-base">
             Most Brilliant reasons SamZara should be your one-stop-shop!
           </p>
         </div>
 
         {/* Filters */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
+        <div className="flex  sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
           {/* Custom Dropdown */}
           <div className="relative w-full sm:w-44">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="w-full flex items-center justify-between border border-[#2A2A72] rounded-full py-2 px-4 text-[#2A2A72] font-medium outline-1 outline-gray-300 focus:outline-2 focus:outline-[#2A2A72] transition-all"
+              className="w-full flex items-center  justify-between border border-[#2A2A72] rounded-full py-2 px-4 text-[#2A2A72] font-medium outline-1 outline-gray-300 focus:outline-2 focus:outline-[#2A2A72] transition-all"
             >
-              {selectedCity}
+             <p className=" line-clamp-1">{selectedCity}</p> 
               {isOpen ? (
                 <svg
                   className="w-4 h-4 text-gray-400"
@@ -84,7 +84,7 @@ export default function TopRehabs() {
           </div>
 
           {/* Pagination Buttons */}
-          <div className="flex flex-row gap-2 justify-start sm:justify-center mt-2 sm:mt-0">
+          <div className="flex flex-row gap-2 justify-start sm:justify-center  sm:mt-0">
             <button
               className="bg-green-600 rounded-full p-2 hover:bg-green-700 transition-colors disabled:opacity-40"
               onClick={() => setPage(Math.max(0, page - 1))}

@@ -2,7 +2,7 @@ import React from "react";
 import left from "../Image/left.png";
 export default function Footer() {
   return (
-    <footer className="bg-white py-6 sm:py-10 px-4 sm:px-8 md:px-14 font-sans">
+    <footer className="bg-white py-6 sm:py-10  font-sans px-4 sm:px-8 md:px-19 lg:px-16">
       {/* Top Row */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between border-b border-[#e7e7e7] pb-4 gap-4">
         <div className="w-full md:w-auto">
@@ -61,13 +61,15 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row font-medium items-start sm:items-center gap-2 text-[#222A3F] text-sm sm:text-base">
-          <span>0123-456-324-54</span>
+          <a href="tel:+917300677006" className="text-[#222A3F] hover:underline">
+            +91 73006 77006
+          </a>
           <span className="hidden sm:inline">|</span>
           <a
-            href="mailto:hello@samzara.com"
+             href="mailto:info@findrehabcentres.com?subject=Inquiry&body=Hello%20there"
             className="text-[#222A3F] underline"
           >
-            hello@samzara.com
+            info@findrehabcentres.com
           </a>
         </div>
       </div>
@@ -226,7 +228,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="text-left md:text-right">
-            2024 © SamZara India Pvt Ltd. All rights reserved.
+            2024 ©<a href="#" className=" font-bold underline cursor-pointer">SamZara India Pvt Ltd.</a>  All rights reserved.
           </div>
         </div>
       </div>
