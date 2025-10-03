@@ -15,7 +15,7 @@ const Home = () => {
           autoPlay
           loop
           muted
-          className="w-full rounded-2xl h-100 md:h-130 lg:h-130 object-cover"
+          className="w-full rounded-2xl h-[90vh] md:h-auto lg:h-auto object-cover"
         />
       </div>
 
