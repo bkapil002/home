@@ -16,3 +16,53 @@ body{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
+
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2a2a72;      /* button background */
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin-right: 42px;
+}
+
+.arrows {
+  width: 25px;   /* fit inside button */
+  height: 25px;
+  display: block;
+}
+
+.arrows path {
+  stroke: #ffffff;          /* white arrows */
+  fill: transparent;
+  stroke-width: 2px;
+  animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% { opacity: 0; }
+  40% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+}
+.arrows path.a2 {
+  animation-delay: -0.5s;
+}
+.arrows path.a3 {
+  animation-delay: 0s;
+}
+
+@media (max-width: 768px) {
+  .scroll-btn {
+    margin-right: 0;
+  }
+}
+
