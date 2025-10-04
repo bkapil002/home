@@ -50,7 +50,7 @@ const Home = () => {
 
         <div className="mx-auto flex flex-col md:flex-row items-center gap-6">
           {/* Left Side - Image */}
-          <div className="flex-1 w-full" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+          <div className="flex-1 w-full" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <img
               src={deaddiction}
               alt="De-addiction group"
@@ -74,7 +74,7 @@ const Home = () => {
             </p>
 
             {/* Button aligned right */}
-            <div className="flex justify-center md:justify-end" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <div className="flex justify-center md:justify-end" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
               <a
                 href="https://community.samzara.in"
                 target="_blank"
@@ -91,12 +91,12 @@ const Home = () => {
       {/* Doctors Section */}
       <div
         className="w-full py-8 md:py-12 px-4 sm:px-8 md:px-19 lg:px-16"
-        data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+        data-aos="fade-up" data-aos-anchor-placement="center-bottom"
       >
         {/* Heading */}
         <h1
           className="text-2xl sm:text-4xl md:text-[50px] text-center md:text-left text-[#2A2A72] mb-6"
-          data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+          data-aos="fade-up" data-aos-anchor-placement="center-bottom"
         >
           De-Addiction Anonymous
         </h1>
@@ -118,7 +118,7 @@ const Home = () => {
           {/* Text block */}
           <div
             className="flex flex-col w-full order-2 md:order-1"
-            data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+            data-aos="fade-up" data-aos-anchor-placement="center-bottom"
           >
             <p className="text-[#3C3C3C] mb-6 text-center md:text-left text-sm sm:text-base">
              Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -188,13 +188,13 @@ const Home = () => {
       </div>
 
       {/* Extra Components */}
-      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <ThreeDSlider />
       </div>
-      <div data-aos="fade-up"data-aos-anchor-placement="bottom-bottom">
+      <div data-aos="fade-up"data-aos-anchor-placement="center-bottom">
         <TopRehabs />
       </div>
-      <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <JoinMember />
       </div>
     </div>
