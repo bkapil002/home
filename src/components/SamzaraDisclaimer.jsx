@@ -48,7 +48,7 @@ const SamzaraDisclaimer = () => {
           Ownership Information
         </h3>
         <p className="text-[#5C5B5A]  text-[14px] mb-4">
-          FindRehabCentres.com (the “Website”) is an informational resource that
+          Community.samzara.in (the “Website”) is an informational resource that
           aspires to educate and provide Rehab Centre information to the public
           on addictions and addictive substances and to assist people who may
           have already become addicted themselves. The Website is owned by
@@ -57,7 +57,7 @@ const SamzaraDisclaimer = () => {
         </p>
         <p className="text-[#5C5B5A]  text-[14px] mb-6">
           Samzara India Pvt Ltd. is not owned or operated by any treatment
-          centres. No treatment centres are involved in FindRehabCentres.com’s
+          centres. No treatment centres are involved in Community.samzara.in’s
           day-to-day operations and do not have any ownership interest in or
           receive a distribution of profits.
         </p>
@@ -66,13 +66,13 @@ const SamzaraDisclaimer = () => {
           Information Submitted
         </h3>
         <p className="text-[#5C5B5A]  text-[14px] mb-4">
-          Information on FindRehabCentres.com will not be shared, sold or
+          Information on Community.samzara.in will not be shared, sold or
           provided to any third party unless you authorize us to do so on your
-          behalf. FindRehabCentres.com strives to maintain the most up-to-date
+          behalf. Community.samzara.in strives to maintain the most up-to-date
           and current information on drug and alcohol abuse and treatment.
         </p>
         <p className="text-[#5C5B5A]  text-[14px] mb-4">
-          The information provided on FindRehabCentres.com is designed to
+          The information provided on Community.samzara.in is designed to
           support, not replace, the relationship between a patient and his/her
           healthcare provider. Nothing on this Website should be taken as
           medical advice; instead, It should be considered a resource for
@@ -81,8 +81,8 @@ const SamzaraDisclaimer = () => {
           other licensed medical professional for all medical advice.
         </p>
         <p className="text-[#5C5B5A]  text-[14px] mb-6">
-          Transmissions to FindRehabCentres.com, in part or whole, and/or
-          communication with FindRehabCentres.com via the Internet or e-mail
+          Transmissions to Community.samzara.in, in part or whole, and/or
+          communication with Community.samzara.in via the Internet or e-mail
           through this Website do not constitute or create
         </p>
         <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
@@ -123,7 +123,7 @@ const SamzaraDisclaimer = () => {
           based on information collected about your visits to this site and
           elsewhere over time. However, information provided by advertisers is
           separate from information content provided to you by the Website.
-          FindRehabCentres.com is not responsible for any third-party content
+          Community.samzara.in is not responsible for any third-party content
           that may be accessed through this Website or any related services
           provided by a third party.
         </p>
