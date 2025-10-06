@@ -215,20 +215,16 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2">
           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-8 mb-2 md:mb-0">
             <a
-              href="https://findrehabcentres.com/disclaimer"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="disclaimer"
               className="hover:underline"
             >
               Disclaimer
             </a>
             <a
-              href="https://findrehabcentres.com/privacy-policy"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/privacy-policy"
               className="hover:underline"
             >
-              Terms of Service
+              Privacy Policy
             </a>
           </div>
           <div className="text-left md:text-right">
