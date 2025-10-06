@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, 
+      duration: 1100, 
       once: true,    
       easing: "ease-in-out",
     });
